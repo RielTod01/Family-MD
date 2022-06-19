@@ -15,18 +15,8 @@ Ariffb:
 https://github.com/Ariffb25
 Aguz Familia:
 https://github.com/FokusDotId
-Amelia Lisa:
-https://github.com/Ameliascrf
-Aniq12
-https://github.com/aniq12
-Ilman: 
-https://github.com/ilmanhdyt
-Amirul: 
-https://github.com/amiruldev20
-Irwan:
-https://github.com/irwanx
-Rasel:
-https://github.com/raselcomel
+rielgansOfc
+https://github.com/Rieltod
 
 \`\`\`${conn.user.name}\`\`\`
 `
