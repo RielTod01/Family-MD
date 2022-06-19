@@ -191,28 +191,28 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       {
         title: 'List Menu ' + namabot,
         rows: [
-          { title: 'Semua Perintah', rowId: `${_p}? all` },
-          { title: 'Game', rowId: `${_p}? game` },
-          { title: 'XP', rowId: `${_p}? xp` },
-          { title: 'Stiker', rowId: `${_p}? stiker` },
-          { title: 'Kerang Ajaib', rowId: `${_p}? kerangajaib` },
-          { title: 'Quotes', rowId: `${_p}? quotes` },
-          { title: 'Grup', rowId: `${_p}? grup` },
-          { title: 'Premium', rowId: `${_p}? premium` },
-          { title: 'Internet', rowId: `${_p}? internet` },
-          { title: 'Anonymous', rowId: `${_p}? anonymous` },
-          { title: 'Nulis & Logo', rowId: `${_p}? nulis` },
-          { title: 'Downloader', rowId: `${_p}? downloader` },
-          { title: 'Tools', rowId: `${_p}? tools` },
-          { title: 'Fun', rowId: `${_p}? fun`},
-          { title: 'Database', rowId: `${_p}? database` },
-          { title: 'Vote & Absen', rowId: `${_p}? vote` },
-          { title: "Al-Qur\'an", rowId: `${_p}? quran` },
-          { title: 'Pengubah Suara', rowId: `${_p}? audio` },
-          { title: 'Jadi Bot', rowId: `${_p}? jadibot` },
-          { title: 'Info', rowId: `${_p}? info` },
-          { title: 'Tanpa Kategori', rowId: `${_p}? tanpakategori` },
-          { title: 'Owner', rowId: `${_p}? owner` },
+          { title: '𝙎𝙀𝙈𝙐𝘼 𝙋𝙀𝙍𝙄𝙉𝙏𝘼𝙃🤖', rowId: `${_p}? all` },
+          { title: '𝙂𝘼𝙈𝙀🎮', rowId: `${_p}? game` },
+          { title: '𝙓𝙋🎖️', rowId: `${_p}? xp` },
+          { title: '𝙎𝙏𝙄𝘾𝙆𝙀𝙍🛑', rowId: `${_p}? stiker` },
+          { title: '𝙆𝙀𝙍𝘼𝙉𝙂 𝘼𝙅𝘼𝙄𝘽🚨', rowId: `${_p}? kerangajaib` },
+          { title: '𝙌𝙊𝙐𝙏𝙀𝙎🌈', rowId: `${_p}? quotes` },
+          { title: '𝙂𝙍𝙐𝙋☢️', rowId: `${_p}? grup` },
+          { title: '𝙋𝙍𝙀𝙈𝙄𝙐𝙈🚫', rowId: `${_p}? premium` },
+          { title: '𝙄𝙉𝙏𝙀𝙍𝙉𝙀𝙏⏮️', rowId: `${_p}? internet` },
+          { title: '𝘼𝙉𝙊𝙉𝙔𝙈𝙊𝙐𝙎⏸️', rowId: `${_p}? anonymous` },
+          { title: '𝙉𝙐𝙇𝙄𝙎 & 𝙇𝙊𝙂𝙊🔴', rowId: `${_p}? nulis` },
+          { title: '𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍📫', rowId: `${_p}? downloader` },
+          { title: '𝙏𝙊𝙊𝙇𝙎📥', rowId: `${_p}? tools` },
+          { title: '𝙁𝙐𝙉🌱', rowId: `${_p}? fun`},
+          { title: '𝘿𝘼𝙏𝘼𝘽𝘼𝙎𝙀🎬', rowId: `${_p}? database` },
+          { title: '𝙑𝙊𝙏𝙀 & 𝘼𝘽𝙎𝙀𝙉💡', rowId: `${_p}? vote` },
+          { title: "𝘼𝙇,𝙌𝙐𝙍\𝘼𝙉🎤", rowId: `${_p}? quran` },
+          { title: '𝙋𝙀𝙉𝙂𝙐𝘽𝘼𝙃 𝙎𝙐𝘼𝙍𝘼📞', rowId: `${_p}? audio` },
+          { title: '𝙅𝘼𝘿𝙄 𝘽𝙊𝙏🔎', rowId: `${_p}? jadibot` },
+          { title: '𝙄𝙉𝙁𝙊⛔', rowId: `${_p}? info` },
+          { title: '𝙏𝘼𝙉𝙋𝘼 𝙆𝘼𝙏𝙀𝙂𝙊𝙍𝙔⬆️', rowId: `${_p}? tanpakategori` },
+          { title: '𝙊𝙒𝙉𝙀𝙍🛐', rowId: `${_p}? owner` },
         ]
       }
     ]
@@ -221,7 +221,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       footer: wm,
       mentions: await conn.parseMention(judul),
       title: '',
-      buttonText: "Klik Disini",
+      buttonText: "𝙆𝙇𝙄𝙆 𝘿𝙄𝙎𝙄𝙉𝙄 ⌫",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
@@ -276,7 +276,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send3TemplateButtonImg(m.chat, fla + teks, text.trim(), wm, `🏅Owner`, `${_p}owner`, `🎖ThanksTo`, `${_p}tqto`, `🎗  Donasi  🎗`, `${_p}infobot`)
+    await conn.send3TemplateButtonImg(m.chat, fla + teks, text.trim(), wm, `𝐂𝐑𝐄𝐀𝐓𝐎𝐑 𝐁𝐎𝐓🐤`, `${_p}owner`, `𝐘𝐀𝐍𝐆 𝐌𝐄𝐌𝐁𝐀𝐍𝐓𝐔 𝐁𝐎𝐓♻️`, `${_p}tqto`, `𝐃𝐎𝐍𝐀𝐒𝐈🏮  🎗`, `${_p}infobot`)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
