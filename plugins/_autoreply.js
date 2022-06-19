@@ -24,9 +24,10 @@ handler.all = async function (m) {
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.sendButton(m.chat, `┌「 *Undang Bot ke Grup* 」
 ├ 7 Hari / Rp 5,000
-├ 30 Hari / Rp 15,000
+├ 20 Hari / Rp 15,000
+├ permanen / Rp 20,000
 └────
-`.trim(), wm, 'Pemilik Bot', '.owner', m)
+`.trim(), wm, '𝐏𝐄𝐌𝐈𝐋𝐈𝐊 𝐁𝐎𝐓🐤', '.owner', m)
     }
 
     if (m.isGroup) {
